@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_page_setting"
+    android:title="Setting"></item>
+    <item
+        android:id="@+id/menu_page_fresh"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/menu_page_store"
+        android:title="store"/>
+</menu>

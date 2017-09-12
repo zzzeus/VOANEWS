@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhou.voanews.activities.TestActivity">
+<EditText
+    android:id="@+id/test_info"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="outsideOverlay"
+    android:editable="false"
+    android:cursorVisible="false"
+
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/test_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/test_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaa"/>
+    <Button
+        android:id="@+id/test_launch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hujiang"
+        android:onClick="Click"/>
+    <Button
+        android:id="@+id/test_pop"
+        android:text="Show pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Click"/>
+
+</LinearLayout>
